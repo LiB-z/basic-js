@@ -29,7 +29,6 @@ function transform(arr) {
     if (i == arr.length-1 && (arr[i] == method[1] || arr[i] == method[3])) {
       return newArr;
     }
-
     if(arr[i] == method[0]) {
       newArr.splice(newArr.length-1,1);
     } else if (arr[i] == method[1]) {
